@@ -4,10 +4,10 @@ from .socket_client import send_command
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "shell_network"
+DOMAIN = "shellnet-cmd"
 
 async def async_setup(hass: HomeAssistant, config: dict):
-    """Set up the Shell Network integration."""
+    """Set up the ShellNet CMD integration."""
 
     async def handle_send_command(call: ServiceCall):
         host = call.data.get("host")
