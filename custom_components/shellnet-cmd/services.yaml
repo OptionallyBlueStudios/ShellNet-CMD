@@ -1,0 +1,22 @@
+send_command:
+  name: Send Shell Command
+  description: Send a shell command to a remote device via TCP socket.
+  fields:
+    host:
+      required: true
+      example: "192.168.x.xxx"
+      selector:
+        text:
+    port:
+      required: false
+      default: 26
+      example: 26
+      selector:
+        number:
+          min: 1
+          max: 65535
+    command:
+      required: true
+      example: "ls -la"
+      selector:
+        text:
