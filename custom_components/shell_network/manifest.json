@@ -1,0 +1,9 @@
+{
+  "domain": "shellnet-cmd",
+  "name": "ShellNet CMD",
+  "version": "0.1.0",
+  "documentation": "https://github.com/OptionallyBlueStudios/ShellNet-CMD/wiki",
+  "requirements": [],
+  "codeowners": ["@OptionallyBlueStudios"],
+  "iot_class": "local_push"
+}
